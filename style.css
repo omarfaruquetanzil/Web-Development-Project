@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background-image: url('https://img.freepik.com/free-vector/seamless-gold-rhombus-grid-pattern-black-background_53876-97589.jpg?size=626&ext=jpg&ga=GA1.1.1863265249.1727465667&semt=ais_hybrid');
+
+    
+    
+}
+
+h1{
+    font-weight: normal;
+  
+}
+
+
+.shape{
+    height: 200px;
+    width: 200px;
+    
+    background: rgb(255, 255, 255);
+    
+    border: 1px solid black;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#square:hover{
+
+    
+    background-image: url('https://img.freepik.com/premium-photo/beautiful-night-atmosphere-city-street-background-illustration_77895-3094.jpg?size=626&ext=jpg&ga=GA1.1.1863265249.1727465667&semt=ais_hybrid');
+
+    background-position: center;
+    
+}
+
+
+#circle{
+  
+    border-radius: 50%;
+    align-content: center;
+}
+#circle:hover{
+  
+   background-image: url('https://img.freepik.com/free-vector/tokyo-city-neon-lights_52683-46233.jpg?size=626&ext=jpg&ga=GA1.1.1863265249.1727465667&semt=ais_hybrid');
+ 
+   background-position: center;
+}
+
+#diamond{
+    
+     
+     height: 160px;
+     width: 160px;
+     rotate: 45deg;
+     margin-top: 50px;
+
+     margin-left: 0;
+     translate: 25px;
+
+}
+
+
+#diamond:hover{
+     
+    background-image: url('https://img.freepik.com/premium-photo/aesthetic-lunar-punk-city-from-open-balcony_916191-221357.jpg?size=626&ext=jpg&ga=GA1.1.1863265249.1727465667&semt=ais_hybrid');
+
+
+
+    background-position: center;
+
+
+}
+
